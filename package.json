@@ -1,6 +1,6 @@
 {
   "name": "min-indent",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get the shortest leading whitespace from lines in a string",
   "main": "index.js",
   "license": "MIT",
