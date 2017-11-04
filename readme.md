@@ -25,7 +25,7 @@ const str = '\tunicorn\n\t\tcake';
 		cake
 */
 
-minIndent(str); // 2
+minIndent(str); // 1
 ```
 
 
