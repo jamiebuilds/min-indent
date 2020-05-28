@@ -7,5 +7,5 @@ module.exports = str => {
 	}
 
 	// TODO: Use spread operator when targeting Node.js 6
-	return Math.min.apply(Math, match.map(x => x.length));
+	return match.reduce((r, a) => Math.min(r, a.length), Infinity);
 };
